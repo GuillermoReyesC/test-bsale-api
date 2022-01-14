@@ -23,4 +23,3 @@ Route::get('/', function () {
 
 Route::resource('/products',  ProductsController::class);
 Route::resource('/categories',  CategoryController::class);
-
